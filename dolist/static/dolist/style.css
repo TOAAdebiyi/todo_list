@@ -1,0 +1,66 @@
+*{box-sizing: border-box;}
+.mainContainer{
+    width: 80%;
+    margin: 10em auto;
+    box-shadow: 1px 2px 3px grey;
+    padding: i.5em 2em;
+}
+
+.todo_text{
+    width: 60%;
+    padding: 0.5em 1em;
+    background-color: azure;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+.btn_submit{
+    background-color: darkolivegreen;
+    border: none;
+    font-size: 1.2em;
+    padding: 0.5em 2em;
+    margin-left: 1em;
+    border-radius: 10em;
+    font-weight: 500;
+    color: aliceblue;
+
+}
+
+.btn_submit:hover{
+    background-color: lawngreen;
+    color: darkgray;
+    box-shadow: 1px 0px 4px 2px black;
+    cursor: pointer;
+}
+.btn_group{
+    margin-top: 2em;
+}
+.btn_del{
+    padding: 0.5em 2em;
+    font-size: 1.2em;
+    background-color: crimson;
+    margin-right: 1em;
+    border-radius: 10px;
+    color: antiquewhite;   
+}
+.btn_del:hover{
+    background-color: whitesmoke;
+    color: darkred;
+    box-shadow: 0px 1px 4px 2px darkblue;
+    cursor: pointer;
+}
+.list_do{
+    margin-top: 2em;
+    font-size: 1.2em;
+    list-style: none;
+    background-color: rgb(244, 220, 220);
+}
+.list_item{
+    padding: 1em;
+    border-bottom: solid 1.2px  rgb(100, 100, 100);
+}
+
+.completed{
+    background-color: rgb(100, 120, 140);
+    opacity: 0.5;
+    text-decoration: line-through;
+}
