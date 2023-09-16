@@ -35,6 +35,14 @@
             <ul class="list_todo">
                 <li class="list_items">Add a Do List</li>
                 <li class="list_item completed"> Finish project 1</li>
+                {% for i in todo_items%}
+                {%if i.completed%}
+                <li class="list_item completed">{{i.text}}</li>
+                {%else%}
+                <li class="list_item">{{i.text}}</li>
+                {%endif%}
+                {% endfor%}
+
 
             </ul>
 
